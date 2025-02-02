@@ -18,300 +18,27 @@
 
 <body>
     <div class="home_black_version">
-        <header class="header_area header_black" style="
-          background: linear-gradient(
-            to right,
-            #bf953f,
-            #fcf6ba,
-            #b38728,
-            #fbf5b7,
-            #aa771c
-          );
-        ">
-            <!-- header top starts -->
-            <div class="header_top">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="social_icone">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="ion-social-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-instagram"></i></a>
-                                    </li>
-                                    <!-- <li><a href="#"><i class="ion-social-linkedin"></i></a></li> -->
-                                    <li>
-                                        <a href="#"><i class="ion-social-youtube"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="top_right text-right">
-                                <ul>
-                                    <!-- <li class="language">
-                                        <a href="#">English <i class="ion-chevron-down"></i></a>
-                                        <ul class="dropdown_language">
-                                            <li><a href="#">French</a></li>
-                                            <li><a href="#">Germany</a></li>
-                                            <li><a href="#">Hindi</a></li>
-                                        </ul>
-                                    </li>
-                                       <li class="currency"> -->
-                                    <!-- <a href="#">INR <i class="ion-chevron-down"></i></a> -->
-                                    <!-- <ul class="dropdown_currency"> -->
-                                    <!-- <li><a href="#">USD - Dollar</a></li> -->
-                                    <!-- <li><a href="#">EUR - Euro</a></li> -->
-                                    <!-- <li><a href="#">GBP - British Pound</a></li> -->
-                                    <!-- </ul> -->
-                                    <!-- </li>  -->
-                                    <li class="top_links">
-                                        <a href="#">My Account <i class="ion-chevron-down"></i
-                      ></a>
-                                        <ul class="dropdown_links">
-                                            <li><a href="#">Checkout</a></li>
-                                            <li><a href="#">My Account</a></li>
-                                            <li><a href="#">Shopping Cart</a></li>
-                                            <li><a href="#">Wishlist</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+        <div id="header"></div>
+
+        <!-- <section class="mock_section">
+            <div class="container" style="background-color: lightblue; min-height: 60vh">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mock_content">
+                            <h2>Mock Title</h2>
+                            <p>
+                                This is a mock paragraph for demonstration purposes. You can replace this text with actual content.
+                            </p>
+                            <a href="#" class="button">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- header top ends -->
+        </section> -->
 
-            <!-- header middle starts -->
-            <div class="header_middel">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="home_contact">
-                                <div class="contact_icone">
-                                    <!-- <img src="images/icon/icon_phone.png" alt=""> -->
-                                </div>
-                                <div class="contact_box">
-                                    <!-- <p>Inquiry / Helpline : <a href="tel: 1234567894">1234567894</a></p> -->
-                                    <!-- <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
-                                        LzQ/XoR5WTrPH0d75+yDRtbomEfMD71D5h0Fz3K0ytxsN9D06lcdzrn06JOJO62ij7/RQXG37VF7u9Fcr7DzKmFtte6irfsVkSrmPRZgJAABPTskQhXEPMEi9LKjKmCSSkqUqgQChCILoQkitGSkLRpaVx0IOTbYeuqCPwFMHVajQbIAmw81AH4ugE+V9/wCSZCIR9P4phMdRqfJIuA9UUzpqd+yG9zufsCxLze6epUoAQk4m6ku8gpLyqLv3+ilxupCaAW8B0+awVxOsfVSjkFceSKy5CRcFFcQFVzD3XIyg9lLomq6mMLozFa8tvf7QjKzummMVbYyVs0dm/u+9MutuR6DUpoTIwESSW9VDpSdGj+KccXUqKUbL6lbE21QSuPI+6AzXN0wk0JqoEyki6odkBTdGZAPUlNBQShCEQIQhFJCprSdAuTHCBqd/uQKJthrueiZN9T9EEDup5gHcoh3v0Kbrbn8FZGY+iglNVb5eyhJCgaZf8lKECQhCqBCEIoSTQg2jk6H6rRzLrihU15HVTF1pkcNjf1UyOcdwrbKrzC249Oqg4ov2TBPS/wBq2MoRzfJVGeVxVNg7lPmeg+pSLx5n7Ag0AA0CHvt/BYmQ9NPRSpim95KQQhVDQhCoEIQgEIQgEIQgRCSpFkRKE7JWQNrii6SYRQhCFAISTQCEIQCEIVQkIQgaEIRQiyEIFZCaECQmiyBITsiygSE7J2QJCaFQITQgSE0IEmkmgEJIRDSQgIGhCSBpJoRSypWTTQTZFlSSAQnZJAIQhAJJoQf/2Q==" -->
-                                    <img src="images/logo/log-image.png" alt="logo image" width="50" height="100" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2 col-md-3 col-4">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <!-- <img src="images/logo/logo-ash.png" alt=""> -->
-                                    <span style="font-weight: 800; font-size: 30px; color: #ffd700">𝓙𝓮𝔀𝓮𝓵𝓵𝓮𝓻𝔂</span
-                    >
-                  </a>
-                </div>
-              </div>
-
-              <div class="col-lg-5 col-md-7 col-6">
-                <div class="middel_right">
-                  <div class="search_btn">
-                    <a href="#"><i class="ion-ios-search-strong"></i></a>
-                    <div class="dropdown_search">
-                      <form action="#">
-                        <input type="text" placeholder="Search Product ...." />
-                        <button type="submit">
-                          <i class="ion-ios-search-strong"></i>
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="wishlist_btn">
-                    <a href="#"><i class="ion-heart"></i></a>
-                  </div>
-                  <div class="cart_link">
-                    <a href="#"
-                      ><i class="ion-android-cart"></i
-                      ><span class="cart_text_quantity">Rs. 67,598</span
-                      ><i class="ion-chevron-down"></i
-                    ></a>
-                    <span class="cart_quantity">2</span>
-
-                                    <!-- mini cart -->
-                                    <div class="mini_cart">
-                                        <div class="cart_close">
-                                            <div class="cart_text">
-                                                <h3>cart</h3>
-                                            </div>
-                                            <div class="mini_cart_close">
-                                                <a href="javascript:void(0)"><i class="ion-android-close"></i
-                          ></a>
-                                            </div>
-                                        </div>
-                                        <div class="cart_item">
-                                            <div class="cart_img">
-                                                <a href="#"><img src="images/nav-product/product.jpg" alt="" /></a>
-                                            </div>
-                                            <div class="cart_info">
-                                                <a href="#">Earings</a>
-                                                <span class="quantity">Qty : 1</span>
-                                                <span class="price_cart">Rs. 54,599</span>
-                                            </div>
-                                            <div class="cart_remove">
-                                                <a href="#"><i class="ion-android-close"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="cart_item">
-                                            <div class="cart_img">
-                                                <a href="#"><img src="images/nav-product/product2.jpg" alt="" /></a>
-                                            </div>
-                                            <div class="cart_info">
-                                                <a href="#">Bracelet</a>
-                                                <span class="quantity">Qty : 1</span>
-                                                <span class="price_cart">Rs. 12,999</span>
-                                            </div>
-                                            <div class="cart_remove">
-                                                <a href="#"><i class="ion-android-close"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="cart_total">
-                                            <span>Subtotal : </span>
-                                            <span>Rs. 67,598</span>
-                                        </div>
-                                        <div class="mini_cart_footer">
-                                            <div class="cart_button view_cart">
-                                                <a href="#">View Cart</a>
-                                            </div>
-                                            <div class="cart_button checkout">
-                                                <a href="#" class="active">Checkout</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- mini cart ends  -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-
-    <!-- header middle ends -->
-
-    <!-- header bottom starts -->
-
-    <div class="header_bottom sticky-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="main_menu_inner">
-                        <div class="logo_sticky">
-                            <a href="#"><img src="images/logo/logo-ash.png" alt="logo" /></a>
-                        </div>
-                        <div class="main_menu">
-                            <nav>
-                                <ul>
-                                    <li class="active">
-                                        <a href="#">Home <i class="ion-chevron-down"></i></a>
-                                        <ul class="sub_menu">
-                                            <li><a href="#">Banner</a></li>
-                                            <li><a href="#">Featured</a></li>
-                                            <li><a href="#">Collection</a></li>
-                                            <li><a href="#">Best Selling</a></li>
-                                            <!-- <li><a href="#">News</a></li> -->
-                                            <!-- <li><a href="#">Blog</a></li> -->
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Category <i class="ion-chevron-down"></i
-                          ></a>
-                                        <ul class="mega_menu">
-                                            <li>
-                                                <a href="#">Women</a>
-                                                <ul>
-                                                    <li><a href="#">Earring</a></li>
-                                                    <li><a href="#">Pendant</a></li>
-                                                    <li><a href="#">Rings</a></li>
-                                                    <li><a href="#">Necklace</a></li>
-                                                    <li><a href="#">Bangles</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Men</a>
-                                                <ul>
-                                                    <li><a href="#">Ring</a></li>
-                                                    <li><a href="#">Pendant</a></li>
-                                                    <li><a href="#">Bracelet</a></li>
-                                                    <li><a href="#">Chain</a></li>
-                                                    <!-- <li><a href="#">Gemstone</a></li> -->
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Other</a>
-                                                <ul>
-                                                    <li><a href="#">Platinium</a></li>
-                                                    <li><a href="#">Silver</a></li>
-                                                    <li><a href="#">Gold</a></li>
-                                                    <!-- <li><a href="#">Gift Card</a></li> -->
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Collection <i class="ion-chevron-down"></i></a>
-                                        <ul class="sub_menu pages">
-                                            <li><a href="#">Earrings</a></li>
-                                            <li><a href="#">Pendant</a></li>
-                                            <li><a href="#">Ring</a></li>
-                                            <li><a href="#">Bracelet</a></li>
-                                            <li><a href="#">Necklace Set</a></li>
-                                        </ul>
-                                    </li>
-                                    </li>
-
-                                    <li><a href="AboutUs/aboutUs.html">About Us</a></li>
-                                    <li>
-                                        <!-- <a href="#">Special Collection <i class="ion-chevron-down"></i -->
-                                        ></a>
-                                        <ul class="sub_menu pages">
-                                            <li><a href="#">Gemstone</a></li>
-                                            <li><a href="#">Gold</a></li>
-                                            <li><a href="#">Rose Gold</a></li>
-                                            <li><a href="#">Silver</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- header bottom ends -->
-    </header>
-
-    <section class="mock_section">
-        <div class="container" style="background-color: lightblue; min-height: 60vh">
-            <div class="row">
-                <div class="col-12">
-                    <div class="mock_content">
-                        <h2>Mock Title</h2>
-                        <p>
-                            This is a mock paragraph for demonstration purposes. You can replace this text with actual content.
-                        </p>
-                        <a href="#" class="button">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- slider section starts -->
-    <!-- <div class="slider_area slider_black owl-carousel">
-            <div class="single_slider" data-bgimg="images/slider/1.png">
+        <!-- slider section starts -->
+        <div class="slider_area slider_black owl-carousel">
+            <div class="single_slider" data-bgimg="images/slider/4.jpg">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12">
@@ -327,7 +54,7 @@
                 </div>
 
             </div>
-            <div class="single_slider" data-bgimg="images/slider/2.jpg">
+            <div class="single_slider" data-bgimg="images/slider/5.jpg">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12">
@@ -343,7 +70,7 @@
                 </div>
 
             </div>
-            <div class="single_slider" data-bgimg="images/slider/3.jpg">
+            <div class="single_slider" data-bgimg="images/slider/7.webp">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12">
@@ -359,16 +86,16 @@
                 </div>
 
             </div>
-        </div> -->
-    <!-- slider section ends -->
-    <!-- banner section starts -->
-    <!-- <section class="banner_section banner_black">
+        </div>
+        <!-- slider section ends -->
+        <!-- banner section starts -->
+        <section class="banner_section banner_black">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single_banner">
                             <div class="banner_thumb">
-                                <a href="#"><img src="images/banner/bg-1.jpg" alt="banner1"></a>
+                                <a href="#"><img src="images/new-product-image/prod16.jpg" alt="banner1"></a>
                                 <div class="banner_content">
                                     <p>New Design</p>
                                     <h2>Small design Rings</h2>
@@ -380,7 +107,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_banner">
                             <div class="banner_thumb">
-                                <a href="#"><img src="images/banner/bg-2.jpg" alt="banner2"></a>
+                                <a href="#"><img src="images/new-product-image/prod14.jpg" alt="banner2"></a>
                                 <div class="banner_content">
                                     <p>Bestselling Rings</p>
                                     <h2>White gold rings</h2>
@@ -392,7 +119,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_banner">
                             <div class="banner_thumb">
-                                <a href="#"><img src="images/banner/bg-3.jpg" alt="banner3"></a>
+                                <a href="#"><img src="images/new-product-image/prod12.jpg" alt="banner3"></a>
                                 <div class="banner_content">
                                     <p>Featured Rings</p>
                                     <h2>Platinium Rings</h2>
@@ -403,11 +130,11 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-    <!-- banner section ends -->
-    <!-- product section area starts  -->
+        </section>
+        <!-- banner section ends -->
+        <!-- product section area starts  -->
 
-    <!-- <section class="product_section p_section1 product_black_section">
+        <section class="product_section p_section1 product_black_section">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -433,8 +160,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/1.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/2.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod5.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/2.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -444,7 +171,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Necklace</a></h3>
+                                                        <h3><a href="#">Diamond Pendant</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -490,8 +217,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/3.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/4.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod9.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/4.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -501,7 +228,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Earrings</a></h3>
+                                                        <h3><a href="#">Gold Pendant Chain</a></h3>
                                                         <div class="price_box">
 
                                                             <span class="current_price">Rs. 45015</span>
@@ -546,8 +273,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/5.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/6.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod4.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/6.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -557,7 +284,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Bracelet</a></h3>
+                                                        <h3><a href="#"> Silver Adjustable DaisyBracelet</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 75654</span>
                                                             <span class="current_price">Rs. 74015</span>
@@ -602,8 +329,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/7.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/8.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod6.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/8.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -658,8 +385,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/9.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/10.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod11.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/10.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -669,7 +396,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Gemstones</a></h3>
+                                                        <h3><a href="#">AD Stud Earrings</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -770,8 +497,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/13.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/14.jpg" alt="product1"></a>
+                                                        <!-- <a href="#" class="primary_img"><img src="images/product/13.jpg" alt="product1"></a> -->
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/14.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -882,8 +609,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/17.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/18.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod1.jpeg" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/18.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -893,7 +620,9 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Ring</a></h3>
+                                                        <h3><a href="#">Diamond Mangalsutra
+                        
+                                                        </a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -938,8 +667,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/19.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/20.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod 8.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/20.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -949,7 +678,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Couple Ring</a></h3>
+                                                        <h3><a href="#">Engagement Ring</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -994,8 +723,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/21.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/22.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod3.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/22.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -1005,7 +734,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Bracelet</a></h3>
+                                                        <h3><a href="#">Imperial Charm Gold Earring</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -1050,8 +779,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/23.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/24.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod7.jpg" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/24.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -1061,7 +790,7 @@
                                                             <a href="#">Ring, Necklace</a>
                                                             <a href="#">Earrings</a>
                                                         </div>
-                                                        <h3><a href="#">Necklace Set</a></h3>
+                                                        <h3><a href="#">Elegant Party wear Necklace Set</a></h3>
                                                         <div class="price_box">
                                                             <span class="old_price">Rs. 45654</span>
                                                             <span class="current_price">Rs. 44015</span>
@@ -1848,8 +1577,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/2.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/3.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod5.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/3.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -1904,8 +1633,8 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/4.jpg" alt="product1"></a>
-                                                        <a href="#" class="secondary_img"><img src="images/product/5.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/new-product-image/prod9.webp" alt="product1"></a>
+                                                        <!-- <a href="#" class="secondary_img"><img src="images/product/5.jpg" alt="product1"></a> -->
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
                                                         </div>
@@ -1960,7 +1689,7 @@
                                             <div class="custom-col-5">
                                                 <div class="single_product">
                                                     <div class="product_thumb">
-                                                        <a href="#" class="primary_img"><img src="images/product/6.jpg" alt="product1"></a>
+                                                        <a href="#" class="primary_img"><img src="images/" alt="product1"></a>
                                                         <a href="#" class="secondary_img"><img src="images/product/7.jpg" alt="product1"></a>
                                                         <div class="quick_button">
                                                             <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick View</a>
@@ -2469,12 +2198,12 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
-    <!-- product section area sends -->
+        <!-- product section area sends -->
 
-    <!-- banner full width start -->
-    <!-- <section class="banner_fullwidth black_fullwidth">
+        <!-- banner full width start -->
+        <section class="banner_fullwidth black_fullwidth">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -2487,11 +2216,11 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-    <!-- banner full width end -->
+        </section>
+        <!-- banner full width end -->
 
-    <!-- product section area starts  -->
-    <!-- <section class="product_section p_section1 product_black_section bottom">
+        <!-- product section area starts -->
+        <!-- <section class="product_section p_section1 product_black_section bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -2559,7 +2288,7 @@
                                     <div class="custom-col-5">
                                         <div class="single_product">
                                             <div class="product_thumb">
-                                                <a href="#" class="primary_img"><img src="images/product/4.jpg" alt="product1"></a>
+                                                <a href="#" class="primary_img"><img src="images/" alt="product1"></a>
                                                 <a href="#" class="secondary_img"><img src="images/product/5.jpg" alt="product1"></a>
                                                 <div class="quick_button">
                                                     <a href="#" data-toggle="modal" data-target="#modal_box" data-placement="top" data-original-title="quick view">Quick
@@ -3094,9 +2823,9 @@
                 </div>
             </div>
         </section> -->
-    <!-- product section area ends  -->
-    <!-- blog section starts -->
-    <!-- <section class="blog_section blog_black">
+        <!-- product section area ends  -->
+        <!-- blog section starts -->
+        <!-- <section class="blog_section blog_black">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -3207,10 +2936,10 @@
                 </div>
             </div>
         </section> -->
-    <!-- blog section ends -->
+        <!-- blog section ends -->
 
-    <!-- instagram section starts -->
-    <!-- <div class="instagram">
+        <!-- instagram section starts -->
+        <!-- <div class="instagram">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-sm-4 p-0">
@@ -3264,10 +2993,10 @@
                 </div>
             </div>
         </div> -->
-    <!-- instagram section  ends-->
+        <!-- instagram section  ends-->
 
-    <!-- subscribe section starts -->
-    <!-- <div class="newsletter_area newsletter_black">
+        <!-- subscribe section starts -->
+        <!-- <div class="newsletter_area newsletter_black">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
@@ -3285,9 +3014,9 @@
                 </div>
             </div>
         </div> -->
-    <!-- subscribe section ends -->
-    <!-- banner area starts  -->
-    <!-- <section class="banner_section banner_section_five">
+        <!-- subscribe section ends -->
+        <!-- banner area starts  -->
+        <!-- <section class="banner_section banner_section_five">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-lg-6 col-md-12">
@@ -3311,133 +3040,11 @@
                 </div>
             </div>
         </section> -->
-    <!-- banner area ends -->
+        <!-- banner area ends -->
 
-    <!-- footer section starts -->
-    <footer class="footer_widgets footer_black">
-        <div class="container">
-            <div class="footer_top">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-8">
-                        <div class="widgets_container contact_us">
-                            <h3>About Ashirwaad</h3>
-                            <div class="footer_contact">
-                                <p>Address : Ashirwaad palace, Surat, Gujarat</p>
-                                <p>
-                                    Phone :
-                                    <a href="tel:(+91)888888885555">(+91)888888885555</a>
-                                </p>
-                                <p>Email : ashirwaadjewlers@gmail.com</p>
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="ion-social-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-rss"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-googleplus"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-social-youtube"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-4 col-6">
-                        <div class="widgets_container widget_menu">
-                            <h3>Information</h3>
-                            <div class="footer_menu">
-                                <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Collection</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-5 col-6">
-                        <div class="widgets_container widget_menu">
-                            <h3>My Account</h3>
-                            <div class="footer_menu">
-                                <ul>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Wishlist</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Checkout</a></li>
-                                    <li><a href="#">Frequently Questions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-7">
-                        <div class="widgets_container product_widget">
-                            <h3>Top Rated Products</h3>
-                            <div class="simple_product">
-                                <div class="simple_product_items">
-                                    <div class="simple_product_thumb">
-                                        <a href="#"><img src="images/product/14.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="simple_product_content">
-                                        <div class="tag_cate">
-                                            <a href="#">Women,</a>
-                                            <a href="#">Earrings</a>
-                                        </div>
-                                        <div class="product_name">
-                                            <h3><a href="#">Bracelet</a></h3>
-                                        </div>
-                                        <div class="product_price">
-                                            <span class="old_price">Rs. 45612.54</span>
-                                            <span class="current_price">Rs. 41612.54</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="simple_product_items">
-                                    <div class="simple_product_thumb">
-                                        <a href="#"><img src="images/product/28.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="simple_product_content">
-                                        <div class="tag_cate">
-                                            <a href="#">Women,</a>
-                                            <a href="#">Earrings</a>
-                                        </div>
-                                        <div class="product_name">
-                                            <h3><a href="#">Ring</a></h3>
-                                        </div>
-                                        <div class="product_price">
-                                            <span class="old_price">Rs. 75612.54</span>
-                                            <span class="current_price">Rs. 71612.54</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_bottom">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="copyright_area">
-                            <p>
-                                Copyright &copy; 2020 <a href="#">ashirwaad</a> All rights Reserved.
-                            </p>
-                            <img src="images/icon/papyel2.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer section ends -->
+        <!-- footer section starts -->
+        <div id="footer"></div>
+        <!-- footer section ends -->
     </div>
 
     <!-- modal section starts -->
